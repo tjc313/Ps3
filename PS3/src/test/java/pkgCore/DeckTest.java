@@ -21,7 +21,7 @@ public class DeckTest {
 		}
 	} 
 	
-/*	@Test
+	@Test
 	public void TestDrawSuit() {
 		//TODO: Build a deck, test the Draw(eSuit) method
 		Deck testDeck2 = new Deck();
@@ -36,7 +36,7 @@ public class DeckTest {
 		Card c = testDeck3.Draw(eRank.ACE);
 		assertTrue(c.geteRank() == eRank.ACE);
 	}
-*/	
+	@Test
 	public void TestDeckRankCount() {
 		//Complete: Build a deck, test the DeckRankCount method
 		Deck testDeck4 = new Deck();
@@ -45,7 +45,7 @@ public class DeckTest {
 		testDeck4.Draw(eRank.JACK);
 		assertEquals(testDeck4.RankCount(eRank.JACK), 2);
 	}
-	
+	@Test
 	public void TestDeckSuitCount() {
 		//Complete: Build a deck, test the DeckSuitCount method
 		Deck testDeck5 = new Deck();
